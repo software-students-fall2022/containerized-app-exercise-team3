@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-Name your feature branch `task/<ISSUE_NUMBER>/<TASK_DESCRIPTION>`
+Name your feature branch: task/<ISSUE_NUMBER>/<TASK_DESCRIPTION>
 
-For example: `task/2/webapp-initial-setup`
+For example: task/2/webapp-initial-setup

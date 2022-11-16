@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-Name your feature branch `spike/<ISSUE_NUMBER>/<SPIKE_DESCRIPTION>`
+Name your feature branch: spike/<ISSUE_NUMBER>/<SPIKE_DESCRIPTION>
 
-For example: `spike/1/webapp-cicd-config`
+For example: spike/1/webapp-cicd-config
