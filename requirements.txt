@@ -1,5 +1,0 @@
-boto3==1.26.16
-botocore==1.29.16
-python-dotenv==0.21.0
-urllib3==1.26.12
-pymongo==4.3.3
