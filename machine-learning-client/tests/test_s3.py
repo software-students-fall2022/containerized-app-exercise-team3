@@ -1,6 +1,5 @@
 import pytest
 from utils import aws_s3
-from utils import aws_transcribe
 
 class Tests:
     @pytest.fixture
