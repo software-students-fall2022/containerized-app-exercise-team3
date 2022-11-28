@@ -39,7 +39,17 @@ def home():
     """
     Route for the home page
     """
-    return render_template('index.html') # render the hone template
+    jobs = db.jobs.find()
+    return render_template('index.html', jobs = jobs) # render the hone template
+
+@app.route('/job/<job_id>')
+def job(job_id):
+    """
+    Route for the job page
+    """
+    job = db.jobs.find_one({'_id': ObjectId(job_id)})
+    return render_template('job.html', job = job)
+
 
 # route to handle any errors
 @app.errorhandler(Exception)
