@@ -20,11 +20,7 @@ jobs:
         run: |
           pip3 install --upgrade pip
           pip3 install --user pipenv
-          pipenv install -r requirements.txt
-          pipenv install
-      - name: Turn on 'editable' mode
-        run: |
-          python3 -m pipenv install -e .
+          pip3 install -r requirements.txt
       - name: Test with pytest
         run: |
-          pipenv run python3 -m pytest
+          python3 -m pytest
