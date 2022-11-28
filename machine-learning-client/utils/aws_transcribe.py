@@ -7,7 +7,7 @@ from urllib import request
 from dotenv import load_dotenv, dotenv_values
 
 load_dotenv()
-config = dotenv_values(".env")
+config = dotenv_values()
 
 client = boto3.client('transcribe')
 
@@ -37,6 +37,16 @@ def start_transcription_job(s3_file_url: str, language_code: str = "en-US"):
         }
     )
 
+    job = {
+        "name": job_name,
+        "status": response["TranscriptionJob"]["TranscriptionJobStatus"],
+        "language": response["TranscriptionJob"]["LanguageCode"],
+        "media_file_url": response["TranscriptionJob"]["Media"]["MediaFileUri"],
+        "creation_time": response["TranscriptionJob"]["CreationTime"]
+    }
+
+    db.jobs.insert_one(job)
+
     return job_name, response
 
 
@@ -49,7 +59,31 @@ def get_transcription_job(job_name: str):
         )
 
         if response["TranscriptionJob"]["TranscriptionJobStatus"] in ["COMPLETED", "FAILED"]:
-            print("----- Transcription Job Finished -----")
+            print(f'----- Transcription Job Finished with Status {response["TranscriptionJob"]["TranscriptionJobStatus"]} -----')
+
+            set_values = {
+                "status": response["TranscriptionJob"]["TranscriptionJobStatus"],
+                "start_time": response["TranscriptionJob"]["StartTime"],
+                "completion_time": response["TranscriptionJob"]["CompletionTime"],
+                "media_format": response["TranscriptionJob"]["MediaFormat"],
+                "media_sample_rate_hertz": response["TranscriptionJob"]["MediaSampleRateHertz"],
+                "transcript_file_uri": response["TranscriptionJob"]["Transcript"]["TranscriptFileUri"],
+            }
+
+            if response["TranscriptionJob"]["TranscriptionJobStatus"] == "COMPLETED":
+                results_response = request.urlopen(response["TranscriptionJob"]["Transcript"]["TranscriptFileUri"])
+                results_str = results_response.read()
+                results_dict = json.loads(results_str)
+
+                set_values["transcript"] = results_dict["results"]["transcripts"][0]["transcript"]
+                set_values["transcript_items"] = results_dict["results"]["items"]
+
+            db.jobs.update_one({
+                "name": job_name
+            }, {
+                "$set": set_values
+            })
+
             return response
         else:
             print("Current Job Status:", response["TranscriptionJob"]["TranscriptionJobStatus"])
@@ -59,6 +93,8 @@ def get_transcription_job(job_name: str):
 
 
 if __name__ == '__main__':
+    print("Hello World!")
+
     s3_file_url = "s3://software-eng-project-4/2022v-body-stuff-season-002-episode-005-yeast-video-002-180k.mp4"
 
     job_name, start_response = start_transcription_job(s3_file_url=s3_file_url)
