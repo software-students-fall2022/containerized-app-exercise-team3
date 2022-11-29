@@ -14,4 +14,4 @@ Evan Huang:
 
 Harvey Dong: https://github.com/junyid
 
-Otis Lu: 
+Otis Lu: https://github.com/OtisL99
