@@ -10,7 +10,7 @@ Larry Li: https://github.com/86larryli
 
 Winston Zhang: https://github.com/Midas0231
 
-Evan Huang: 
+Evan Huang: https://github.com/EV9H
 
 Harvey Dong: https://github.com/junyid
 
