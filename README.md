@@ -2,3 +2,16 @@
 # Containerized App Exercise
 
 Build a containerized app that uses machine learning. See [instructions](./instructions.md) for details.
+
+## Team Members
+Yvonne Wu (Yiyi Wu): https://github.com/Yvonne511
+
+Larry Li: https://github.com/86larryli
+
+Winston Zhang: 
+
+Evan Huang: 
+
+Harvey Dong: https://github.com/junyid
+
+Otis Lu: 
