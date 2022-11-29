@@ -1,5 +1,6 @@
 import pytest
 from utils import aws_s3
+import boto3
 
 class Tests:
     @pytest.fixture
@@ -36,3 +37,27 @@ class Tests:
         expected = "s3://software-eng-project-4/video_sample.mp4"
         actual = aws_s3.upload_file('video_sample.mp4', 'software-eng-project-4')
         assert actual == expected, "Expected s3://software-eng-project-4/video_sample.mp4 to be equal to s3://software-eng-project-4/video_sample.mp4!"
+
+    def test_wrong_file(self, example_fixture):
+        """
+        Test the upload_file function throw exception when file does not exist
+        """
+        try:
+            with pytest.raises(FileNotFoundError):
+                aws_s3.upload_file('not_a_file.mp5', 'software-eng-project-4')
+        except Exception as e:
+            assert False, "Expected FileNotFoundError to be thrown!"
+
+    def test_file_exists_in_bucket(self, example_fixture):
+        """
+        Test whether file exists in bucket after upload_file function
+        """
+        s3 = boto3.resource('s3')
+        bucket = s3.Bucket('software-eng-project-4')
+        key = 'video_sample.mp4'
+        actual = aws_s3.upload_file(key, 'software-eng-project-4')
+        objs = list(bucket.objects.filter(Prefix=key))
+        if any([w.key == key for w in objs]):
+            assert True, "File exist in Bucket!"
+        else:
+            assert False, "File does not exist in Bucket!"
