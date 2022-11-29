@@ -8,7 +8,7 @@ Yvonne Wu (Yiyi Wu): https://github.com/Yvonne511
 
 Larry Li: https://github.com/86larryli
 
-Winston Zhang: 
+Winston Zhang: https://github.com/Midas0231
 
 Evan Huang: 
 
