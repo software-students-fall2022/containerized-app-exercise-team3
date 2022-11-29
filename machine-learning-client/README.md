@@ -1,13 +1,17 @@
-*** Activate Virtual Env
-    source venv/bin/activate    
-*** Install pytest
-    pip3 install pytest
-*** Re-activate Virtual Env
-    deactivate && source venv/bin/activate
+# Machine Learning Client
 
-** Start From Here
+**Code related to the machine learning client goes in this folder.**
 
-*** Install all dependencies into the virtual environment
+# To Run Unit Test
+## Install all dependencies into the virtual environment
     pip3 install -r requirements.txt
-*** Run pytest
+## Run pytest
     python3 -m pytest
+
+# To Run Locally in Vistual Environment
+## Activate Virtual Env
+    source venv/bin/activate    
+##  Install pytest 
+    pip3 install pytest
+##  Re-activate Virtual Env
+    deactivate && source venv/bin/activate
