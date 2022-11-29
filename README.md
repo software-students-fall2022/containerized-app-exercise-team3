@@ -4,14 +4,14 @@
 # Containerized App Exercise
 
 ## Team Members
-![Yvonne Wu (Yiyi Wu)](https://github.com/Yvonne511)
+[Yvonne Wu (Yiyi Wu)](https://github.com/Yvonne511)
 
-![Larry Li](https://github.com/86larryli)
+[Larry Li](https://github.com/86larryli)
 
-![Winston Zhang](https://github.com/Midas0231)
+[Winston Zhang](https://github.com/Midas0231)
 
-![Evan Huang](https://github.com/EV9H)
+[Evan Huang](https://github.com/EV9H)
 
-![Harvey Dong](https://github.com/junyid)
+[Harvey Dong](https://github.com/junyid)
 
-![Otis Lu](https://github.com/OtisL99)
+[Otis Lu](https://github.com/OtisL99)
