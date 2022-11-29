@@ -3,7 +3,18 @@
 {% block container %}
 
     <h2>Current jobs</h2>
-
+    <ul class="list-group">
+        {% for job in jobs %}
+            <li class="list-group-item">
+                <h3>{{ job.name }}</h3>
+                <span class="badge bg-success">{{job.status}}</span>
+                <small>{{ job.completion_time }}</small><br>
+                <a href="{{ url_for('job', job_id = job._id) }}">View details</a>
+            </li>
+        {% endfor %}
+      </ul>
     <h2>Upload an audio file</h2>
-
+    <div>
+        <input class="form-control form-control-lg" id="formFileLg" type="file">
+    </div>
 {% endblock %}
