@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 
 {% block container %}
-
     <h2>Current jobs</h2>
     <ul class="list-group">
         {% for job in jobs %}
@@ -17,4 +16,14 @@
     <div>
         <input class="form-control form-control-lg" id="formFileLg" type="file">
     </div>
+    <h3>Statistics</h3>
+    <div>
+        <small>{{submitted}}</small><br>
+        <small>{{num_succeed}}</small><br>
+        <small>{{failed}}</small><br>
+        <small>{{processing}}</small><br>
+        <small>{{success_rate}}</small><br>
+        <small>{{avg_completion}}</small><br>
+        <small>{{avg_wait}}</small><br>
+    <div>
 {% endblock %}

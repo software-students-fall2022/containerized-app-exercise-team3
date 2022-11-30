@@ -32,7 +32,7 @@ except Exception as e:
     print('Database connection error:', e) # debug
 
 # set up the routes
-
+# add statistics display to home page
 # route for the home page
 @app.route('/')
 def home():
@@ -40,15 +40,59 @@ def home():
     Route for the home page
     """
     jobs = db.jobs.find()
-    return render_template('index.html', jobs = jobs) # render the hone template
+    str_submitted = "Jobs in database: " + str(db.jobs.count_documents({})) + "\n"
+    num_succeed = db.jobs.count_documents({"status": "COMPLETED"})
+    str_succeed = "Jobs succeeded: " + str(num_succeed) + "\n"
+    num_failed = db.jobs.count_documents({"status": "FAILED"})
+    str_failed = "Jobs failed: " + str(num_failed) + "\n"
+    str_processing = "Jobs processing: " + str(db.jobs.count_documents({"status": "IN_PROCESS"})) + "\n"
+    if num_failed + num_succeed != 0:
+        success_rate = round((num_succeed/(num_succeed+num_failed))*100)
+    else:
+        success_rate = 0
+    str_success_rate = "Success rate: " + str(success_rate) + "%\n"
+    success_doc = db.jobs.find({"status": "COMPLETED"})
+    total_completion = datetime.timedelta()
+    total_wait = datetime.timedelta()
+    for each in success_doc:
+        completion = each["completion_time"] - each["start_time"]
+        wait = each["start_time"] - each["creation_time"]
+        total_completion += completion
+        total_wait += wait
+    avg_completion = "Average completion time of jobs: " + str((total_completion / num_succeed).total_seconds()) + "s"
+    avg_wait = "Average wait time of jobs: " + str((total_wait / num_succeed).total_seconds()) + "s"
+    return render_template('index.html', jobs=jobs, submitted=str_submitted,
+                           num_succeed=str_succeed, failed=str_failed, processing=str_processing,
+                           success_rate=str_success_rate, avg_completion=avg_completion, avg_wait=avg_wait)
+    # render the home template
 
+# route for job page
+# add statistics display to job page
 @app.route('/job/<job_id>')
 def job(job_id):
     """
     Route for the job page
     """
     job = db.jobs.find_one({'_id': ObjectId(job_id)})
-    return render_template('job.html', job = job)
+    print(job)
+    if job["status"] == "COMPLETED":
+        total_time = 0
+        total_confidence = 0
+        count = 0
+        for i in range(len(job["transcript_items"])):
+            if job["transcript_items"][i]["type"] == "pronunciation":
+                time_added = float(job["transcript_items"][i]["end_time"])\
+                             - float(job["transcript_items"][i]["start_time"])
+                confidence_added = float(job["transcript_items"][i]["alternatives"][0]["confidence"])
+                total_time += time_added
+                total_confidence += confidence_added
+                count += 1
+        avg_confidence = str(round((total_confidence/count)*100, 2)) + "%"
+        avg_time = str(round(total_time/count, 3)) + "s"
+    else:
+        avg_confidence = "INVALID"
+        avg_time = "INVALID"
+    return render_template('job.html', job=job, avg_time=avg_time, avg_confidence=avg_confidence)
 
 
 # route to handle any errors
