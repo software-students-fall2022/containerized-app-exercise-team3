@@ -32,7 +32,7 @@ except Exception as e:
     print('Database connection error:', e) # debug
 
 # set up the routes
-
+# add statistics display to home page
 # route for the home page
 @app.route('/')
 def home():
@@ -66,6 +66,8 @@ def home():
                            success_rate=str_success_rate, avg_completion=avg_completion, avg_wait=avg_wait)
     # render the home template
 
+# route for job page
+# add statistics display to job page
 @app.route('/job/<job_id>')
 def job(job_id):
     """
