@@ -9,6 +9,9 @@
     <small>Audio file: <span class="placeholder col-1"></span></small><br>
     <h2>Transcript</h2>
     <p>{{ job.transcript }}</p>
+    <h3>Statistics</h3>
+    <small>Average time for each token: {{avg_time}}</small><br>
+    <small>Average confidence for each token: {{avg_confidence}}</small><br>
 
     <a href="/"><button type="button" class="btn btn-primary">Return</button></a>
 {% endblock %}
