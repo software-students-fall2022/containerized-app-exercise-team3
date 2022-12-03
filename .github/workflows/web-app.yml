@@ -32,6 +32,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Create .env
+      run: |
+        touch .env
+        echo MONGO_DBNAME=${{ secrets.MONGO_DBNAME }} >> .env
+        echo MONGO_URI=${{ secrets.MONGO_URI }} >> .env
+        echo FLASK_APP=app.py >> .env
+        echo FLASK_ENV=development >> .env
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
