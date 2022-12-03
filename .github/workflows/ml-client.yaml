@@ -16,13 +16,14 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
+      - name: install extra dependencies for pyAudio on Ubuntu
+        command: sudo apt-get install portaudio19-dev python-pyaudio
       - name: Install dependencies
         run: |
           pip3 install --upgrade pip
           pip3 install --user pipenv
           pip3 install flake8
           pip3 install -r requirements.txt
-          sudo apt-get install portaudio19-dev python-pyaudio
       - name: "Create .env File"
         run: |
           touch .env
