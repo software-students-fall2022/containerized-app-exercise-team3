@@ -22,13 +22,15 @@ jobs:
           pip3 install --user pipenv
           pip3 install flake8
           pip3 install -r requirements.txt
-      - name: 'Create .env File'
+      - name: install extra dependencies for pyAudio on Ubuntu
+        command: sudo apt-get install portaudio19-dev python-pyaudio
+      - name: "Create .env File"
         run: |
           touch .env
           echo AWS_DEFAULT_REGION=${{ secrets.AWS_DEFAULT_REGION }} >> .env
           echo AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} >> .env
           echo AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} >> .env
-          
+
           echo MONGO_URI=${{ secrets.MONGO_URI }} >> .env
           echo MONGO_DBNAME=${{ secrets.MONGO_DBNAME }} >> .env
         working-directory: ./machine-learning-client
