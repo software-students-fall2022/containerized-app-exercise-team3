@@ -18,7 +18,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install extra dependencies for pyAudio on Ubuntu
         run: |
-          sudo apt install portaudio19-dev python-pyaudio
+          sudo apt-get install portaudio19-dev libasound-dev python3-pyaudio
       - name: Install dependencies
         run: |
           pip3 install --upgrade pip
