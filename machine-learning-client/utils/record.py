@@ -5,12 +5,7 @@ import os
 from time import time
 
 
-def get_time():
-    ms = int(time()*1000)
-    return ms
-
-
-def record(name, duration=None, fs=44100):
+def record(name="untitled", duration=None):
     """
     Record audio from user's default microphone
 
@@ -20,20 +15,29 @@ def record(name, duration=None, fs=44100):
 
     Parameters:
     - name: str 
-        name of the output file
+        name of the output file, default is "untitled". 
     - duration: int  
         length of the recording, in seconds, default is None. i.e. keyboard interupt to stop unless timeout (optional)
-    - fs: int
-        Sample rate, default is 44100 (optional) 
 
     --------------------------------------------
     Boundaries: 
-    - 1s < duration < 60s 
+    - 1s < duration <= 60s 
 
-    --------------------------------------------
-    TODO:
-    - tests
     """
+
+    # argument error handling
+    # name
+    if not isinstance(name, str):
+        raise TypeError("Name of the file should be a string.")
+    if len(name) > 255:
+        raise OverflowError("File name should be shorter than 255 characters.")
+
+    # duration
+    if(duration is not None and duration <= 0):
+        raise ValueError("Duration should be integer larger than zero.")
+    elif(duration is not None and duration > 60):
+        raise NotImplementedError(
+            "Duration larger than 60 seconds is not supported.")
 
     # Name of sub-directory where WAVE files are placed
     subdir_recording = 'recording'
@@ -42,7 +46,7 @@ def record(name, duration=None, fs=44100):
     chunk = 1024
     format = pyaudio.paInt16
     channels = 1
-    rate = fs
+    rate = 44100
 
     # set filename
     wave_output_filename = '%s.wav' % name
@@ -57,7 +61,7 @@ def record(name, duration=None, fs=44100):
                     frames_per_buffer=chunk)
 
     # set duration
-    if duration == None:
+    if duration is None:
         timeout = 60000
     else:
         timeout = duration * 1000
@@ -66,14 +70,14 @@ def record(name, duration=None, fs=44100):
     print("* Recording. Press [Ctrl + C] or [Cmd + .] to stop recording. Max Length: %dseconds.\n" %
           (int(timeout) / 1000))
     frames = []
-    start_time = get_time()
-    current_time = get_time()
+    start_time = int(time()*1000)
+    current_time = int(time()*1000)
 
     while (current_time - start_time) < timeout:
         try:
             data = stream.read(chunk)
             frames.append(data)
-            current_time = get_time()
+            current_time = int(time()*1000)
         except KeyboardInterrupt:
             data = stream.read(chunk)
             frames.append(data)
@@ -102,4 +106,4 @@ def record(name, duration=None, fs=44100):
 
 
 if __name__ == "__main__":
-    print('Audio generated at: ' + record("test1"))
+    print('Audio generated at: ' + record(name="test1"))
