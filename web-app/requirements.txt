@@ -10,3 +10,5 @@ python-dotenv==0.16.0
 Werkzeug==1.0.1
 pytest
 dnspython
+pytest_flask
+requests
