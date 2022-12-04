@@ -7,8 +7,10 @@ dnspython==2.2.1
 exceptiongroup==1.0.4
 iniconfig==1.1.1
 jmespath==1.0.1
+keyboard==0.13.5
 packaging==21.3
 pluggy==1.0.0
+PyAudio==0.2.12
 pycparser==2.21
 pymongo==4.3.3
 pyparsing==3.0.9
@@ -17,6 +19,6 @@ python-dateutil==2.8.2
 python-dotenv==0.21.0
 s3transfer==0.6.0
 six==1.16.0
-sounddevice==0.4.5
 tomli==2.0.1
 urllib3==1.26.12
+Wave==0.0.2
