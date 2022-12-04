@@ -101,9 +101,9 @@ def handle_error(e):
     """
     Output any errors - good for debugging.
     """
-    return render_template('error.html', error=e) # render the edit template
+    return render_template('error.html', error=e), 404 # render the edit template
 
-
+  
 # run the app
 if __name__ == "__main__":
     app.run(debug = True)
