@@ -91,25 +91,3 @@ def get_transcription_job(job_name: str):
             print("Waiting for 5 seconds...\n")
 
             time.sleep(5)
-
-
-if __name__ == '__main__':
-    print("Hello World!")
-
-    s3_file_url = "s3://software-eng-project-4/2022v-body-stuff-season-002-episode-005-yeast-video-002-180k.mp4"
-
-    job_name, start_response = start_transcription_job(s3_file_url=s3_file_url)
-    print("----- Transcription Job Submitted -----")
-    print(start_response, "\n")
-
-    if start_response["TranscriptionJob"]["TranscriptionJobStatus"] in ["IN_PROGRESS", "QUEUED"]:
-        get_response = get_transcription_job(job_name)
-        print(get_response, "\n")
-
-        if get_response["TranscriptionJob"]["TranscriptionJobStatus"] == "COMPLETED":
-            results_response = request.urlopen(get_response["TranscriptionJob"]["Transcript"]["TranscriptFileUri"])
-            results_str = results_response.read()
-            results_dict = json.loads(results_str)
-
-            print("***** Transcript ******")
-            print(results_dict["results"]["transcripts"][0]["transcript"])

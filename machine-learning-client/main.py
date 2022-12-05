@@ -15,7 +15,7 @@ if __name__ == '__main__':
     s3_file_url = upload_file(audio_file_path, 'software-eng-project-4')
     time.sleep(5)
 
-    job_name, start_response = start_transcription_job(s3_file_url=s3_file_url)
+    job_name, start_response = start_transcription_job(s3_file_url=s3_file_url, job_name=file_uuid)
     print("----- Transcription Job Submitted -----")
     print(start_response, "\n")
 
