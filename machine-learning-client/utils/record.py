@@ -1,6 +1,5 @@
 import pyaudio
 import wave
-import keyboard
 import os
 from time import time
 
