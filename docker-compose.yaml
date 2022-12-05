@@ -1,0 +1,15 @@
+services:
+  webapp:
+    build: ./web-app
+    ports:
+      - "5001:5000"
+    links:
+      - my_mongodb
+    depends_on:
+      - my_mongodb
+
+  my_mongodb:
+    image: mongo:latest
+    hostname: my_mongodb
+    ports: 
+      - "37017:27017"
