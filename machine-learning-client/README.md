@@ -1,23 +1,37 @@
 # Machine Learning Client
 
-**Code related to the machine learning client goes in this folder.**
+## For Mac OS and Linux Users only, before install all dependencies
 
-# For Mac OS and Linux User only, before install all dependencies
-## Install dependency for PyAudio (Mac OS)
+### Install Dependency for PyAudio (Mac OS)
+
     brew install portaudio
-## Install dependency for PyAudio (Linux)
+
+### Install Dependency for PyAudio (Linux)
+
     sudo apt-get install portaudio19-dev libasound-dev python3-pyaudio
 
-# To Run Unit Test
-## Install all dependencies into the virtual environment
-    pip3 install -r requirements.txt
-## Run pytest
-    python3 -m pytest
+## To Run the Machine Learning Client
 
-# To Run Locally in Vistual Environment
-## Activate Virtual Env
-    source venv/bin/activate    
-##  Install pytest 
-    pip3 install pytest
-##  Re-activate Virtual Env
-    deactivate && source venv/bin/activate
+### Create `.env`
+
+In `machine-learning-client/`, create the `.env` file.
+
+### Install All Dependencies
+
+In `machine-learning-client/` run:
+
+    pip3 install -r requirements.txt
+
+### Run `main.py`
+
+In `machine-learning-client/` run:
+
+    python3 main.py
+
+## To Run Unit Tests
+
+### Run `pytest`
+
+In `machine-learning-client/` run:
+    
+    python3 -m pytest

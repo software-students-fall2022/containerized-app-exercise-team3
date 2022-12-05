@@ -1,0 +1,6158 @@
+[
+    {
+        "_id": {
+            "$oid": "638d59b2d2c4c47629b4d3dc"
+        },
+        "name": "933c414c-1f68-4802-92e3-ebf20c972d94",
+        "status": "COMPLETED",
+        "language": "en-US",
+        "media_file_url": "s3://software-eng-project-4/710ace1b-93e4-4efc-9900-f9c0eb57a081.wav",
+        "creation_time": {
+            "$date": {
+                "$numberLong": "1670207921386"
+            }
+        },
+        "completion_time": {
+            "$date": {
+                "$numberLong": "1670207937960"
+            }
+        },
+        "media_format": "wav",
+        "media_sample_rate_hertz": {
+            "$numberInt": "44100"
+        },
+        "start_time": {
+            "$date": {
+                "$numberLong": "1670207921403"
+            }
+        },
+        "transcript": "Hello Hello, Hello, Hello.",
+        "transcript_file_uri": "https://s3.us-east-1.amazonaws.com/aws-transcribe-us-east-1-prod/402491149577/933c414c-1f68-4802-92e3-ebf20c972d94/53741726-0201-4b0f-9f81-fa3e9bc45d37/asrOutput.json?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD23AcfbSTdm3ethufyOvmAP5rvJQIPwI%2BDQinnV3KnRwIhAIncxvs8L4TzedZxsYsV0KB3uWTh1v9v0Nn1nr4X70UAKtUECOP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMjc2NjU2NDMzMTUzIgyG0CWJLUwnqcMMO8sqqQRXcOEV%2FGzWwYGdsVQjK%2Bm4xU%2BtsYJmPjVsYRGGu6k%2BibklJ5Cy%2F8RyBXjy3PSHiXTu01eEcCeSG4%2FNeJz0pa%2FasW7TSomhTdPrzbmIciWEbKutJCWT279E4FLIwv%2FW4KMAo1U1YJTpf8lRsskxTUHmU5vgNATEbK61V4mQeiyWhrdLrDv8a0SAiLtinoWTGMV6Ppw1Krd74KcEEIdbd3HXnK9bo2OFR0WzsT6HXVv5IFxIpMfex13Op6kgGqZxAATOsOsEzfKetd0%2FaA%2FLE7nAw7R2%2F1txdP%2FcgPW%2B1oMwFp7djs2l9ikvUzmApWS6z1D7jM9Yqjw1UYpYzUsy93Z%2FuRfCKmGu8WKAqaG48T806D45HaH8nUU%2FClwuCbMmIR7r7s4H8oIlly6O2kWDSwhXr6yl0ljBthxYc8Ucc5fCuwt7qXmX3D5DvNjGhhCbK5DSAroBXoh3WHas5lxoWl5iawo5kB3TgrV7D0M%2Bq%2FYSmNJeOIujK1iNadJYe5gghF%2BFhrUhcsj0d0EIiLWxjMuOn9%2FaKUqavKHYBnWknsN7%2FBO8QhxzzCAqm3phoX1UoF1EE7K8%2Fsk2HnGicBT4JRUZhsnF5d1zng8LqNjKdZZmjSEBB%2Faf2BIf2zYkqHWa%2B9pXrnu%2FUvqq5kScsv3I9XGggFWXTzVKRjXGBdZjYFT2ZfoS44%2Ftuoi%2B4mUhn2xtXgM87WJYBKxY%2Fe%2BkBNrCYf4uEBvckUPRNJefMMmdtZwGOqgBFk6jqB3dwBtUzxCu6gvr0E4g5uFfbV7x%2Fj9vxxbHHToLoUn1a3yQOAExY8fGhIq3V0XkYIv3Zmh9zLCU0NgUkOhQqhRwF2JRfkGvcX65WR1kk%2F6ac6J19njqLasxm918UynsGmJ5zhzLcsng87N2dxrpzyaVSFlxrpDdJSjF9R7wuksMiT3nMfGzqk9aKFnW6EUymuhAAhmpMcBSoHu9E9oeR%2FLhBB5j&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221205T023901Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIAUA2QCFAA4AQND73Q%2F20221205%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4f59746b9887533cab2f4cac2b265b3d0be0f35acbd02a34eebf41cac79863a0",
+        "transcript_items": [
+            {
+                "start_time": "0.83",
+                "end_time": "1.35",
+                "alternatives": [
+                    {
+                        "confidence": "0.8314",
+                        "content": "Hello"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "1.36",
+                "end_time": "1.69",
+                "alternatives": [
+                    {
+                        "confidence": "0.5537",
+                        "content": "Hello"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "2.72",
+                "end_time": "3.33",
+                "alternatives": [
+                    {
+                        "confidence": "0.7756",
+                        "content": "Hello"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "3.83",
+                "end_time": "4.13",
+                "alternatives": [
+                    {
+                        "confidence": "0.6765",
+                        "content": "Hello"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "63850f2eb4f144d4df2fc305"
+        },
+        "name": "e7007845-3f61-4eea-b799-a7f6c2308131",
+        "status": "COMPLETED",
+        "language": "en-US",
+        "media_file_url": "s3://software-eng-project-4/2022v-body-stuff-season-002-episode-005-yeast-video-002-180k.mp4",
+        "creation_time": {
+            "$date": {
+                "$numberLong": "1669664558521"
+            }
+        },
+        "completion_time": {
+            "$date": {
+                "$numberLong": "1669664592615"
+            }
+        },
+        "media_format": "mp4",
+        "media_sample_rate_hertz": {
+            "$numberInt": "44100"
+        },
+        "start_time": {
+            "$date": {
+                "$numberLong": "1669664558549"
+            }
+        },
+        "transcript": "as an O. B G Y N who specializes in Volvo vaginal disorders. I hear a lot of myths about vaginal yeast infections and the one that just won't go away is that they're linked to too much sugar in your diet on the surface. The idea sounds plausible after all, sugar is a food source not just for us, but also for yeast and bacteria. So if we eat more sugar, we're feeding the yeast and there are studies that show yeast infections are more common in people with diabetes who can have higher levels of sugar in their blood. But the truth is the sugar consumption yeast connection is a myth for most perpetuated, both by well meaning but ill informed health care professionals as well as purveyors of snake oil. You know, the ones who want to sell you cleanses diets and books designed to help you get rid of all the yeast. The first thing you need to know is that yeast is normally found in the vagina at some point in a given year. One study est estimates that 70% of people will have yeast in their vagina just hanging out in the microbiome and causing no symptoms. And secondly, sugar is normally found in the vagina. After all, that's what also feeds the good bacteria. It's the overgrowth of this yeast that's already there that produces symptoms and results in what we call a yeast infection. One theory for the sugar yeast connection is that the source of the yeast is actually in the gut and that a high sugar diet feeds this yeast, which makes it over grow and then it gets into the vagina. But there's no credible data to support this. Another theory is that eating more sugar causes sugar levels in the vagina to rise, thus feeding the yeast, but it doesn't. And yes, someone actually studied this. Researchers gave people some with a history of vaginal yeast infections and others without a drink containing a lot of sugar or glucose. Their blood and vaginal sugar levels were measured before and after the drink. They found that the sugar levels in the vaginal secretions didn't change for either group. But what about diabetes? Now, we know diabetes is associated with an increased risk of vaginal yeast infections, but the actual reason why isn't known while very elevated glucose levels might be part of it. It seems the immune system and other factors may also be playing a role. There is a newer class of diabetes medications that causes people to dump a lot of sugar into their urine as a way to lower blood sugar. The massive amounts of sugar in the urine can cause yeast infections on the vulva, as the vulva is, is being bathed in levels of sugar it didn't evolve to handle. But unless you have diabetes, there is no link between eating sugar and yeast infections, So ignore the so called influencers, it's fine to enjoy a slice of cake now and then and definitely skip the cleanses",
+        "transcript_file_uri": "https://s3.us-east-1.amazonaws.com/aws-transcribe-us-east-1-prod/402491149577/e7007845-3f61-4eea-b799-a7f6c2308131/5869185e-00d9-4c0a-b5bb-3ffbdeb3b120/asrOutput.json?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLWVhc3QtMSJIMEYCIQCDyL90bkJc6KvfJXI9Ki8fUhYUr%2FoFTIR6aw8KsKtlKQIhAOqCUMvJJmcLGh4fd%2BqVvTPYZxYnNOdJJTA2VG01x5XvKs0ECEwQBBoMMjc2NjU2NDMzMTUzIgydyO99qrZjJ7NE5asqqgT37g1dVNfsQiPPdIqS%2FV2o1TDCV6AXc9cUvywkbun4%2BbUOwlkZC0cqpx98AkijP7gxFNDcyy7SLHcA8eVVUsDxW2LYshaXiKGDGPR0h19zVM39VyLC849HK%2Bo0XKz2j%2FLjhPkV8HzKnCr8D2%2Fa8Fd%2Fo2Dvne28nLhE3gsVy7oG6VhfpXozB5J09E%2FXu3qZfiPK56KAbqgtfacKIXOurfkZskpnmaBJchdxkdMZjmUsjRtMQiwQ4UUt0TJ%2BlrHOqH7orka8ElUc0AnZ27SINhtbeNLgZZMXfiQIYBqVlRb9mHxcDoUcwH0UBiCu3Y7GgoWSJHz%2FNH3bTg9yiLxFNj5VqcniFFVXaHdasNzQh6XnqpMHP%2Fxyg5waZfmE9TjTsuouTBRq2g%2BWVhSqj9GI0NhhGLrXZYHx8QSPM4xmtFX%2B2V5IpYXVwpnIEgCgKEhvaVlxR7jpSHs09WcbXqY%2FttabPJFnsl%2FZ6YEm2o5oFRgueOL8R%2FcLDi7FfzkmL2WAdknxapKocbiPRvGiiz27KErPfo53MUjKXh5eAbItrosDP6swTGnvkmm%2FKjyYOwLI5LDtEBgTVPK%2BMvxTOIivkRqSluJYqRqEZZtvgqMpciIPf%2BNzpanGtD%2FIFPOUF4pl5%2FVoLJqt58cxmSvz2O8UAUf40%2FGkkhh4RhkL8y6HfdcetGcXzQf123B8oKtMzC8W0TbGzJ7uwe9B0jBpodj2fJWF9npC8tW6Vy7myzDEgJScBjqoAa2RcHKLoR6Zz0%2BiFokLAFT%2F1I0uYi4sz8lCIfVCuvKbNAY%2Ff8HujV2qoShyq1xVj%2BlwfKqNbpkICVSWFWtlj45bOCfPGbSAWS9dO7ZvNF3qd1LXerqokVmZMUmbSctYrXQRCjyMAMMkGB0IpqxMB2gDaLBGcvG9sYWFPX2KdT5%2BwwC0ao4ijZBVuUEMh7ucl63fITbVGHEb20hbQryJW5BME0O9SYKLPQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221128T194316Z&X-Amz-SignedHeaders=host&X-Amz-Expires=899&X-Amz-Credential=ASIAUA2QCFAA633SNOXQ%2F20221128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c24fb13ec4fb0e47d37b32255e930fba49a6fe734ef1677b6b0c1e815df31956",
+        "transcript_items": [
+            {
+                "start_time": "0.0",
+                "end_time": "0.23",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "as"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "0.23",
+                "end_time": "0.34",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "an"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "0.35",
+                "end_time": "0.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "O"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "0.54",
+                "end_time": "0.66",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "B"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "0.66",
+                "end_time": "0.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "G"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "0.84",
+                "end_time": "1.01",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "Y"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "1.01",
+                "end_time": "1.29",
+                "alternatives": [
+                    {
+                        "confidence": "0.9987",
+                        "content": "N"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "1.29",
+                "end_time": "1.45",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "who"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "1.45",
+                "end_time": "2.43",
+                "alternatives": [
+                    {
+                        "confidence": "0.9968",
+                        "content": "specializes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "2.44",
+                "end_time": "2.61",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "2.61",
+                "end_time": "3.03",
+                "alternatives": [
+                    {
+                        "confidence": "0.965",
+                        "content": "Volvo"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "3.03",
+                "end_time": "3.5",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vaginal"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "3.5",
+                "end_time": "4.13",
+                "alternatives": [
+                    {
+                        "confidence": "0.9987",
+                        "content": "disorders"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "4.14",
+                "end_time": "4.3",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "I"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "4.3",
+                "end_time": "4.68",
+                "alternatives": [
+                    {
+                        "confidence": "0.9965",
+                        "content": "hear"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "4.69",
+                "end_time": "4.81",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "4.81",
+                "end_time": "5.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "lot"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "5.1",
+                "end_time": "5.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "5.17",
+                "end_time": "5.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "myths"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "5.54",
+                "end_time": "5.79",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "about"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "5.79",
+                "end_time": "6.2",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vaginal"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "6.2",
+                "end_time": "6.49",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "6.49",
+                "end_time": "7.3",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "infections"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "7.31",
+                "end_time": "7.74",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "7.74",
+                "end_time": "7.83",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "7.83",
+                "end_time": "8.02",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "one"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "8.02",
+                "end_time": "8.15",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "8.15",
+                "end_time": "8.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "just"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "8.47",
+                "end_time": "8.91",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "won't"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "8.92",
+                "end_time": "9.09",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "go"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "9.09",
+                "end_time": "9.65",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "away"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "9.66",
+                "end_time": "9.79",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "9.79",
+                "end_time": "9.97",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "9.97",
+                "end_time": "10.12",
+                "alternatives": [
+                    {
+                        "confidence": "0.806",
+                        "content": "they're"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "10.12",
+                "end_time": "10.59",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "linked"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "10.6",
+                "end_time": "10.87",
+                "alternatives": [
+                    {
+                        "confidence": "0.9846",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "10.87",
+                "end_time": "11.09",
+                "alternatives": [
+                    {
+                        "confidence": "0.9954",
+                        "content": "too"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "11.09",
+                "end_time": "11.29",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "much"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "11.29",
+                "end_time": "11.65",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "11.65",
+                "end_time": "11.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "11.8",
+                "end_time": "11.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "your"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "11.9",
+                "end_time": "12.48",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "diet"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "16.39",
+                "end_time": "16.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "on"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "16.71",
+                "end_time": "16.82",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "16.82",
+                "end_time": "17.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "surface"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "17.65",
+                "end_time": "17.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "The"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "17.84",
+                "end_time": "18.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "idea"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "18.17",
+                "end_time": "18.69",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sounds"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "18.69",
+                "end_time": "19.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "plausible"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "19.37",
+                "end_time": "19.78",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "after"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "19.78",
+                "end_time": "20.12",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "all"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "20.12",
+                "end_time": "20.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "20.54",
+                "end_time": "20.81",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "20.81",
+                "end_time": "20.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "20.9",
+                "end_time": "21.18",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "food"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "21.18",
+                "end_time": "21.67",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "source"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "21.67",
+                "end_time": "21.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "not"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "21.99",
+                "end_time": "22.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "just"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "22.31",
+                "end_time": "22.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "for"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "22.47",
+                "end_time": "22.87",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "us"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "22.87",
+                "end_time": "23.11",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "but"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "23.11",
+                "end_time": "23.66",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "also"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "23.66",
+                "end_time": "23.89",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "for"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "23.89",
+                "end_time": "24.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "24.17",
+                "end_time": "24.26",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "24.26",
+                "end_time": "24.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "bacteria"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "24.91",
+                "end_time": "25.06",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "So"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "25.06",
+                "end_time": "25.16",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "if"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "25.16",
+                "end_time": "25.33",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "we"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "25.33",
+                "end_time": "25.52",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "eat"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "25.52",
+                "end_time": "25.69",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "more"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "25.69",
+                "end_time": "26.24",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "26.24",
+                "end_time": "26.53",
+                "alternatives": [
+                    {
+                        "confidence": "0.7334",
+                        "content": "we're"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "26.53",
+                "end_time": "26.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "feeding"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "26.88",
+                "end_time": "26.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "26.99",
+                "end_time": "27.42",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "27.43",
+                "end_time": "27.76",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "27.76",
+                "end_time": "27.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "there"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "28.0",
+                "end_time": "28.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "are"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "28.58",
+                "end_time": "29.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "studies"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "29.31",
+                "end_time": "29.63",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "29.63",
+                "end_time": "30.08",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "show"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "30.08",
+                "end_time": "30.33",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "30.33",
+                "end_time": "30.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "infections"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "30.91",
+                "end_time": "31.13",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "are"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "31.13",
+                "end_time": "31.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "more"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "31.36",
+                "end_time": "31.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "common"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "31.9",
+                "end_time": "32.07",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "32.07",
+                "end_time": "32.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "people"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "32.36",
+                "end_time": "32.49",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "with"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "32.49",
+                "end_time": "33.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "diabetes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "33.28",
+                "end_time": "33.65",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "who"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "33.65",
+                "end_time": "33.94",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "can"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "33.94",
+                "end_time": "34.12",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "have"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "34.12",
+                "end_time": "34.38",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "higher"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "34.38",
+                "end_time": "34.76",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "levels"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "34.76",
+                "end_time": "34.86",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "34.86",
+                "end_time": "35.16",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "35.16",
+                "end_time": "35.25",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "35.25",
+                "end_time": "35.38",
+                "alternatives": [
+                    {
+                        "confidence": "0.9881",
+                        "content": "their"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "35.38",
+                "end_time": "35.75",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "blood"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "35.76",
+                "end_time": "36.01",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "But"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "36.01",
+                "end_time": "36.12",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "36.12",
+                "end_time": "36.55",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "truth"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "36.55",
+                "end_time": "37.25",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "37.26",
+                "end_time": "37.43",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "37.43",
+                "end_time": "38.02",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "38.02",
+                "end_time": "39.01",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "consumption"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "39.01",
+                "end_time": "39.39",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "39.39",
+                "end_time": "40.23",
+                "alternatives": [
+                    {
+                        "confidence": "0.9968",
+                        "content": "connection"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "40.24",
+                "end_time": "40.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "40.72",
+                "end_time": "40.81",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "40.81",
+                "end_time": "41.42",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "myth"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "41.42",
+                "end_time": "41.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "for"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "41.71",
+                "end_time": "42.37",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "most"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "42.37",
+                "end_time": "43.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "perpetuated"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "43.27",
+                "end_time": "43.59",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "both"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "43.6",
+                "end_time": "44.06",
+                "alternatives": [
+                    {
+                        "confidence": "0.9988",
+                        "content": "by"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "44.07",
+                "end_time": "44.69",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "well"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "44.69",
+                "end_time": "45.16",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "meaning"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "45.16",
+                "end_time": "45.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "but"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "45.48",
+                "end_time": "45.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ill"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "45.71",
+                "end_time": "46.21",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "informed"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "46.21",
+                "end_time": "46.41",
+                "alternatives": [
+                    {
+                        "confidence": "0.4141",
+                        "content": "health"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "46.41",
+                "end_time": "46.56",
+                "alternatives": [
+                    {
+                        "confidence": "0.4141",
+                        "content": "care"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "46.56",
+                "end_time": "47.46",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "professionals"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "47.47",
+                "end_time": "47.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "as"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "47.8",
+                "end_time": "48.09",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "well"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "48.09",
+                "end_time": "48.44",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "as"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "48.44",
+                "end_time": "49.13",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "purveyors"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "49.13",
+                "end_time": "49.24",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "49.24",
+                "end_time": "49.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "snake"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "49.6",
+                "end_time": "49.97",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "oil"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "49.97",
+                "end_time": "50.08",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "You"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "50.08",
+                "end_time": "50.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "know"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "50.32",
+                "end_time": "50.43",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "50.43",
+                "end_time": "50.87",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "ones"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "50.87",
+                "end_time": "50.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "who"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "50.99",
+                "end_time": "51.14",
+                "alternatives": [
+                    {
+                        "confidence": "0.9928",
+                        "content": "want"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "51.14",
+                "end_time": "51.21",
+                "alternatives": [
+                    {
+                        "confidence": "0.9937",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "51.21",
+                "end_time": "51.39",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "sell"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "51.39",
+                "end_time": "51.56",
+                "alternatives": [
+                    {
+                        "confidence": "0.9904",
+                        "content": "you"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "51.56",
+                "end_time": "52.42",
+                "alternatives": [
+                    {
+                        "confidence": "0.936",
+                        "content": "cleanses"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "52.42",
+                "end_time": "53.08",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "diets"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "53.08",
+                "end_time": "53.24",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "53.24",
+                "end_time": "53.72",
+                "alternatives": [
+                    {
+                        "confidence": "0.9744",
+                        "content": "books"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "53.73",
+                "end_time": "54.3",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "designed"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "54.3",
+                "end_time": "54.38",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "54.38",
+                "end_time": "54.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "help"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "54.6",
+                "end_time": "54.74",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "you"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "54.74",
+                "end_time": "54.98",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "get"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "54.99",
+                "end_time": "55.25",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "rid"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "55.25",
+                "end_time": "55.35",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "55.35",
+                "end_time": "55.55",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "all"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "55.55",
+                "end_time": "55.69",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "55.69",
+                "end_time": "56.21",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "56.22",
+                "end_time": "56.33",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "The"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "56.33",
+                "end_time": "56.64",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "first"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "56.64",
+                "end_time": "56.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "thing"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "56.8",
+                "end_time": "56.89",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "you"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "56.89",
+                "end_time": "57.07",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "need"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "57.07",
+                "end_time": "57.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "57.17",
+                "end_time": "57.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "know"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "57.58",
+                "end_time": "57.85",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "57.85",
+                "end_time": "58.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "58.1",
+                "end_time": "58.48",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "58.49",
+                "end_time": "58.74",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "58.74",
+                "end_time": "59.5",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "normally"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "59.5",
+                "end_time": "59.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "found"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "59.92",
+                "end_time": "60.0",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "60.0",
+                "end_time": "60.08",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "60.08",
+                "end_time": "60.67",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vagina"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "60.68",
+                "end_time": "60.98",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "at"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "60.98",
+                "end_time": "61.4",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "some"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "61.4",
+                "end_time": "62.02",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "point"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "62.02",
+                "end_time": "62.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "62.17",
+                "end_time": "62.25",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "62.25",
+                "end_time": "62.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "given"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "62.58",
+                "end_time": "63.13",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "year"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "63.13",
+                "end_time": "63.53",
+                "alternatives": [
+                    {
+                        "confidence": "0.9906",
+                        "content": "One"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "63.53",
+                "end_time": "63.87",
+                "alternatives": [
+                    {
+                        "confidence": "0.9959",
+                        "content": "study"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "63.87",
+                "end_time": "64.08",
+                "alternatives": [
+                    {
+                        "confidence": "0.4711",
+                        "content": "est"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "64.09",
+                "end_time": "64.53",
+                "alternatives": [
+                    {
+                        "confidence": "0.9916",
+                        "content": "estimates"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "64.53",
+                "end_time": "64.75",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "64.75",
+                "end_time": "65.7",
+                "alternatives": [
+                    {
+                        "confidence": "0.9986999999999999",
+                        "content": "70%"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "65.7",
+                "end_time": "65.79",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "65.79",
+                "end_time": "66.39",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "people"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "66.4",
+                "end_time": "66.69",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "will"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "66.69",
+                "end_time": "66.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "have"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "66.9",
+                "end_time": "67.16",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "67.16",
+                "end_time": "67.25",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "67.25",
+                "end_time": "67.37",
+                "alternatives": [
+                    {
+                        "confidence": "0.9471",
+                        "content": "their"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "67.37",
+                "end_time": "68.07",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vagina"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "68.09",
+                "end_time": "68.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "just"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "68.58",
+                "end_time": "68.95",
+                "alternatives": [
+                    {
+                        "confidence": "0.9993",
+                        "content": "hanging"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "68.95",
+                "end_time": "69.2",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "out"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "69.2",
+                "end_time": "69.3",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "69.3",
+                "end_time": "69.38",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "69.38",
+                "end_time": "70.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "microbiome"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "70.31",
+                "end_time": "70.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "70.6",
+                "end_time": "71.05",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "causing"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "71.05",
+                "end_time": "71.22",
+                "alternatives": [
+                    {
+                        "confidence": "0.9988",
+                        "content": "no"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "71.22",
+                "end_time": "71.95",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "symptoms"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "71.96",
+                "end_time": "72.12",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "And"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "72.12",
+                "end_time": "72.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "secondly"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "72.91",
+                "end_time": "73.66",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "73.66",
+                "end_time": "74.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "74.11",
+                "end_time": "74.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "normally"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "74.99",
+                "end_time": "75.33",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "found"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "75.33",
+                "end_time": "75.41",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "75.41",
+                "end_time": "75.49",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "75.49",
+                "end_time": "76.25",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vagina"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "76.26",
+                "end_time": "76.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "After"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "76.72",
+                "end_time": "77.23",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "all"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "77.32",
+                "end_time": "77.66",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "that's"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "77.66",
+                "end_time": "77.85",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "what"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "77.86",
+                "end_time": "78.24",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "also"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "78.24",
+                "end_time": "78.61",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "feeds"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "78.61",
+                "end_time": "78.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "78.71",
+                "end_time": "78.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "good"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "78.88",
+                "end_time": "79.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "bacteria"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "79.81",
+                "end_time": "80.22",
+                "alternatives": [
+                    {
+                        "confidence": "0.9595",
+                        "content": "It's"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "80.22",
+                "end_time": "80.53",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "80.54",
+                "end_time": "81.81",
+                "alternatives": [
+                    {
+                        "confidence": "0.9988",
+                        "content": "overgrowth"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "81.82",
+                "end_time": "82.04",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "82.04",
+                "end_time": "82.34",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "this"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "82.34",
+                "end_time": "82.83",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "82.84",
+                "end_time": "83.13",
+                "alternatives": [
+                    {
+                        "confidence": "0.9993",
+                        "content": "that's"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "83.14",
+                "end_time": "83.75",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "already"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "83.75",
+                "end_time": "84.27",
+                "alternatives": [
+                    {
+                        "confidence": "0.9937",
+                        "content": "there"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "84.28",
+                "end_time": "84.45",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "84.45",
+                "end_time": "84.9",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "produces"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "84.9",
+                "end_time": "85.5",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "symptoms"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "85.51",
+                "end_time": "85.66",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "85.66",
+                "end_time": "86.06",
+                "alternatives": [
+                    {
+                        "confidence": "0.9989",
+                        "content": "results"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "86.06",
+                "end_time": "86.23",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "86.23",
+                "end_time": "86.48",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "what"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "86.48",
+                "end_time": "86.95",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "we"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "86.95",
+                "end_time": "87.5",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "call"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "87.51",
+                "end_time": "87.64",
+                "alternatives": [
+                    {
+                        "confidence": "0.9961",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "87.64",
+                "end_time": "87.93",
+                "alternatives": [
+                    {
+                        "confidence": "0.96",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "87.94",
+                "end_time": "88.54",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "infection"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "88.55",
+                "end_time": "89.08",
+                "alternatives": [
+                    {
+                        "confidence": "0.9984",
+                        "content": "One"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "89.08",
+                "end_time": "89.69",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "theory"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "89.69",
+                "end_time": "89.95",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "for"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "89.95",
+                "end_time": "90.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "90.17",
+                "end_time": "90.5",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "90.5",
+                "end_time": "90.76",
+                "alternatives": [
+                    {
+                        "confidence": "0.895",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "90.76",
+                "end_time": "91.42",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "connection"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "91.42",
+                "end_time": "91.68",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "91.68",
+                "end_time": "92.18",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "92.19",
+                "end_time": "92.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "92.32",
+                "end_time": "92.82",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "source"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "92.82",
+                "end_time": "92.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "92.92",
+                "end_time": "93.04",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "93.04",
+                "end_time": "93.56",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "93.56",
+                "end_time": "93.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "93.89",
+                "end_time": "94.44",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "actually"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "94.44",
+                "end_time": "94.57",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "94.57",
+                "end_time": "94.66",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "94.66",
+                "end_time": "95.08",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "gut"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.09",
+                "end_time": "95.29",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.29",
+                "end_time": "95.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.47",
+                "end_time": "95.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.54",
+                "end_time": "95.95",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "high"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.95",
+                "end_time": "96.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "96.27",
+                "end_time": "96.79",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "diet"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "96.79",
+                "end_time": "97.25",
+                "alternatives": [
+                    {
+                        "confidence": "0.9972",
+                        "content": "feeds"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "97.25",
+                "end_time": "97.5",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "this"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "97.5",
+                "end_time": "97.95",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "97.95",
+                "end_time": "98.34",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "which"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "98.34",
+                "end_time": "98.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "makes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "98.6",
+                "end_time": "98.69",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "it"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "98.69",
+                "end_time": "98.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "over"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "98.88",
+                "end_time": "99.4",
+                "alternatives": [
+                    {
+                        "confidence": "0.9909",
+                        "content": "grow"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "99.4",
+                "end_time": "99.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "99.54",
+                "end_time": "99.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "then"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "99.72",
+                "end_time": "99.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "it"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "99.99",
+                "end_time": "100.45",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "gets"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "100.45",
+                "end_time": "100.68",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "into"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "100.68",
+                "end_time": "100.77",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "100.77",
+                "end_time": "101.29",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vagina"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "101.3",
+                "end_time": "101.49",
+                "alternatives": [
+                    {
+                        "confidence": "0.9985",
+                        "content": "But"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "101.49",
+                "end_time": "101.76",
+                "alternatives": [
+                    {
+                        "confidence": "0.8516",
+                        "content": "there's"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "101.76",
+                "end_time": "101.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "no"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "101.99",
+                "end_time": "102.44",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "credible"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "102.44",
+                "end_time": "102.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "data"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "102.8",
+                "end_time": "102.93",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "102.93",
+                "end_time": "103.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "support"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "103.31",
+                "end_time": "103.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "this"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "103.73",
+                "end_time": "104.23",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "Another"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "104.23",
+                "end_time": "104.86",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "theory"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "104.86",
+                "end_time": "105.13",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "105.13",
+                "end_time": "105.38",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "105.39",
+                "end_time": "105.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "eating"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "105.8",
+                "end_time": "106.01",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "more"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "106.01",
+                "end_time": "106.51",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "106.51",
+                "end_time": "106.98",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "causes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "106.98",
+                "end_time": "107.3",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "107.3",
+                "end_time": "107.69",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "levels"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "107.69",
+                "end_time": "107.78",
+                "alternatives": [
+                    {
+                        "confidence": "0.9994",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "107.78",
+                "end_time": "107.86",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "107.86",
+                "end_time": "108.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vagina"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "108.61",
+                "end_time": "108.79",
+                "alternatives": [
+                    {
+                        "confidence": "0.9879",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "108.79",
+                "end_time": "109.47",
+                "alternatives": [
+                    {
+                        "confidence": "0.9975",
+                        "content": "rise"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "109.67",
+                "end_time": "110.06",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "thus"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "110.06",
+                "end_time": "110.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "feeding"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "110.36",
+                "end_time": "110.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "110.47",
+                "end_time": "111.02",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "111.05",
+                "end_time": "111.79",
+                "alternatives": [
+                    {
+                        "confidence": "0.9852",
+                        "content": "but"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "112.19",
+                "end_time": "112.42",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "it"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "112.42",
+                "end_time": "112.92",
+                "alternatives": [
+                    {
+                        "confidence": "0.6653",
+                        "content": "doesn't"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "112.93",
+                "end_time": "113.11",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "And"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "113.11",
+                "end_time": "113.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "113.81",
+                "end_time": "114.54",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "someone"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "114.54",
+                "end_time": "115.07",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "actually"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "115.07",
+                "end_time": "115.56",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "studied"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "115.56",
+                "end_time": "116.05",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "this"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "116.06",
+                "end_time": "117.18",
+                "alternatives": [
+                    {
+                        "confidence": "0.9709",
+                        "content": "Researchers"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "117.18",
+                "end_time": "117.62",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "gave"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "117.62",
+                "end_time": "118.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "people"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "118.28",
+                "end_time": "118.93",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "some"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "118.93",
+                "end_time": "119.14",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "with"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "119.14",
+                "end_time": "119.26",
+                "alternatives": [
+                    {
+                        "confidence": "0.9975",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "119.26",
+                "end_time": "119.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "history"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "119.72",
+                "end_time": "119.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "119.88",
+                "end_time": "120.28",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vaginal"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "120.28",
+                "end_time": "120.51",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "120.51",
+                "end_time": "121.29",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "infections"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "121.29",
+                "end_time": "121.75",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "121.76",
+                "end_time": "122.15",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "others"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "122.15",
+                "end_time": "122.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "without"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "122.85",
+                "end_time": "122.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "122.99",
+                "end_time": "123.37",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "drink"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "123.37",
+                "end_time": "124.05",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "containing"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "124.06",
+                "end_time": "124.29",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "124.29",
+                "end_time": "124.75",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "lot"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "124.75",
+                "end_time": "124.85",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "124.85",
+                "end_time": "125.28",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "125.28",
+                "end_time": "125.49",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "or"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "125.49",
+                "end_time": "126.11",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "glucose"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "126.12",
+                "end_time": "126.48",
+                "alternatives": [
+                    {
+                        "confidence": "0.818",
+                        "content": "Their"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "126.48",
+                "end_time": "126.96",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "blood"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "126.96",
+                "end_time": "127.08",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "127.08",
+                "end_time": "127.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vaginal"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "127.47",
+                "end_time": "127.74",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "127.74",
+                "end_time": "128.28",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "levels"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "128.28",
+                "end_time": "128.42",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "were"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "128.42",
+                "end_time": "129.06",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "measured"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "129.07",
+                "end_time": "129.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "before"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "129.71",
+                "end_time": "129.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "129.88",
+                "end_time": "130.16",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "after"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "130.16",
+                "end_time": "130.26",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "130.26",
+                "end_time": "130.81",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "drink"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "130.82",
+                "end_time": "130.96",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "They"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "130.96",
+                "end_time": "131.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "found"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "131.6",
+                "end_time": "131.7",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "131.7",
+                "end_time": "131.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "131.8",
+                "end_time": "132.11",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "132.11",
+                "end_time": "132.7",
+                "alternatives": [
+                    {
+                        "confidence": "0.9994",
+                        "content": "levels"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "132.7",
+                "end_time": "132.88",
+                "alternatives": [
+                    {
+                        "confidence": "0.979",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "132.88",
+                "end_time": "132.96",
+                "alternatives": [
+                    {
+                        "confidence": "0.9919",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "132.96",
+                "end_time": "133.41",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vaginal"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "133.41",
+                "end_time": "134.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "secretions"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "134.18",
+                "end_time": "134.63",
+                "alternatives": [
+                    {
+                        "confidence": "0.989",
+                        "content": "didn't"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "134.63",
+                "end_time": "135.19",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "change"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "135.2",
+                "end_time": "135.45",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "for"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "135.45",
+                "end_time": "135.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "either"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "135.72",
+                "end_time": "136.26",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "group"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "136.27",
+                "end_time": "136.64",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "But"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "136.64",
+                "end_time": "136.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "what"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "136.84",
+                "end_time": "137.05",
+                "alternatives": [
+                    {
+                        "confidence": "0.9983",
+                        "content": "about"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "137.05",
+                "end_time": "137.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "diabetes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "137.85",
+                "end_time": "138.23",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "Now"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "138.23",
+                "end_time": "138.39",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "we"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "138.39",
+                "end_time": "138.59",
+                "alternatives": [
+                    {
+                        "confidence": "0.9717",
+                        "content": "know"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "138.59",
+                "end_time": "139.41",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "diabetes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "139.42",
+                "end_time": "139.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "139.71",
+                "end_time": "140.43",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "associated"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "140.43",
+                "end_time": "140.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "with"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "140.58",
+                "end_time": "140.67",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "an"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "140.67",
+                "end_time": "141.02",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "increased"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.02",
+                "end_time": "141.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "risk"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.27",
+                "end_time": "141.35",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.35",
+                "end_time": "141.7",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vaginal"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.7",
+                "end_time": "141.95",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.95",
+                "end_time": "142.62",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "infections"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "142.62",
+                "end_time": "142.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "but"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "142.84",
+                "end_time": "143.0",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "143.0",
+                "end_time": "143.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "actual"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "143.6",
+                "end_time": "144.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "reason"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "144.1",
+                "end_time": "144.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "why"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "144.97",
+                "end_time": "145.44",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "isn't"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "145.45",
+                "end_time": "145.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "known"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "145.93",
+                "end_time": "146.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "while"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "146.36",
+                "end_time": "146.67",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "very"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "146.67",
+                "end_time": "147.14",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "elevated"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "147.14",
+                "end_time": "147.53",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "glucose"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "147.53",
+                "end_time": "148.08",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "levels"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "148.09",
+                "end_time": "148.56",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "might"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "148.57",
+                "end_time": "148.7",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "be"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "148.7",
+                "end_time": "148.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "part"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "148.99",
+                "end_time": "149.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "149.1",
+                "end_time": "149.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "it"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "149.64",
+                "end_time": "149.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "It"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "149.92",
+                "end_time": "150.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "seems"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "150.27",
+                "end_time": "150.41",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "150.41",
+                "end_time": "150.73",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "immune"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "150.73",
+                "end_time": "151.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "system"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "151.33",
+                "end_time": "151.61",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "151.62",
+                "end_time": "151.97",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "other"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "151.97",
+                "end_time": "152.61",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "factors"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "152.61",
+                "end_time": "152.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "may"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "152.91",
+                "end_time": "153.41",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "also"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "153.41",
+                "end_time": "153.55",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "be"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "153.55",
+                "end_time": "153.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "playing"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "153.92",
+                "end_time": "154.0",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "154.0",
+                "end_time": "154.27",
+                "alternatives": [
+                    {
+                        "confidence": "0.9971",
+                        "content": "role"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "154.28",
+                "end_time": "154.67",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "There"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "154.68",
+                "end_time": "155.13",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "155.13",
+                "end_time": "155.2",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "155.2",
+                "end_time": "155.44",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "newer"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "155.44",
+                "end_time": "155.77",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "class"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "155.77",
+                "end_time": "155.86",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "155.86",
+                "end_time": "156.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "diabetes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "156.36",
+                "end_time": "157.07",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "medications"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "157.07",
+                "end_time": "157.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "that"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "157.33",
+                "end_time": "157.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "causes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "157.9",
+                "end_time": "158.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "people"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "158.27",
+                "end_time": "158.43",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "158.43",
+                "end_time": "158.83",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "dump"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "158.83",
+                "end_time": "158.89",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "158.89",
+                "end_time": "159.09",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "lot"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "159.09",
+                "end_time": "159.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "159.17",
+                "end_time": "159.49",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "159.49",
+                "end_time": "159.69",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "into"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "159.69",
+                "end_time": "159.83",
+                "alternatives": [
+                    {
+                        "confidence": "0.9904",
+                        "content": "their"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "159.83",
+                "end_time": "160.3",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "urine"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "160.3",
+                "end_time": "160.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "as"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "160.54",
+                "end_time": "160.61",
+                "alternatives": [
+                    {
+                        "confidence": "0.9989",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "160.61",
+                "end_time": "160.77",
+                "alternatives": [
+                    {
+                        "confidence": "0.9989",
+                        "content": "way"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "160.77",
+                "end_time": "160.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "160.88",
+                "end_time": "161.3",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "lower"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "161.3",
+                "end_time": "161.55",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "blood"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "161.55",
+                "end_time": "161.94",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "161.95",
+                "end_time": "162.07",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "The"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "162.07",
+                "end_time": "162.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "massive"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "162.71",
+                "end_time": "163.09",
+                "alternatives": [
+                    {
+                        "confidence": "0.9987",
+                        "content": "amounts"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "163.09",
+                "end_time": "163.18",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "163.18",
+                "end_time": "163.51",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "163.51",
+                "end_time": "163.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "163.71",
+                "end_time": "163.82",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "163.82",
+                "end_time": "164.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "urine"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "164.33",
+                "end_time": "164.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "can"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "164.92",
+                "end_time": "165.28",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "cause"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "165.28",
+                "end_time": "165.53",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "165.53",
+                "end_time": "166.0",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "infections"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "166.0",
+                "end_time": "166.16",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "on"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "166.16",
+                "end_time": "166.24",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "166.24",
+                "end_time": "166.73",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vulva"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "166.74",
+                "end_time": "166.93",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "as"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "166.93",
+                "end_time": "167.03",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "167.03",
+                "end_time": "167.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "vulva"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "167.47",
+                "end_time": "167.58",
+                "alternatives": [
+                    {
+                        "confidence": "0.9379",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "167.595",
+                "end_time": "167.805",
+                "alternatives": [
+                    {
+                        "confidence": "0.9994",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "167.805",
+                "end_time": "168.155",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "being"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "168.155",
+                "end_time": "168.775",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "bathed"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "168.775",
+                "end_time": "168.875",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "in"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "168.875",
+                "end_time": "169.205",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "levels"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "169.205",
+                "end_time": "169.305",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "169.305",
+                "end_time": "169.785",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "169.795",
+                "end_time": "170.085",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "it"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "170.085",
+                "end_time": "170.545",
+                "alternatives": [
+                    {
+                        "confidence": "0.9983",
+                        "content": "didn't"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "170.555",
+                "end_time": "171.055",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "evolve"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "171.055",
+                "end_time": "171.175",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "171.175",
+                "end_time": "171.735",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "handle"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "171.745",
+                "end_time": "172.245",
+                "alternatives": [
+                    {
+                        "confidence": "0.9994",
+                        "content": "But"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "172.255",
+                "end_time": "172.915",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "unless"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "172.925",
+                "end_time": "173.135",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "you"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "173.135",
+                "end_time": "173.375",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "have"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "173.375",
+                "end_time": "174.315",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "diabetes"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "174.555",
+                "end_time": "174.755",
+                "alternatives": [
+                    {
+                        "confidence": "0.7255",
+                        "content": "there"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "174.755",
+                "end_time": "174.895",
+                "alternatives": [
+                    {
+                        "confidence": "0.7261",
+                        "content": "is"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "174.895",
+                "end_time": "175.255",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "no"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "175.255",
+                "end_time": "175.535",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "link"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "175.545",
+                "end_time": "175.875",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "between"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "175.875",
+                "end_time": "176.145",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "eating"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "176.145",
+                "end_time": "176.725",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "sugar"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "176.725",
+                "end_time": "176.955",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "176.955",
+                "end_time": "177.185",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "yeast"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "177.185",
+                "end_time": "177.885",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "infections"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "177.895",
+                "end_time": "178.645",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "So"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "178.655",
+                "end_time": "179.435",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ignore"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "179.435",
+                "end_time": "179.555",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "179.555",
+                "end_time": "179.825",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "so"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "179.825",
+                "end_time": "180.255",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "called"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "180.255",
+                "end_time": "181.315",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "influencers"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "181.415",
+                "end_time": "181.815",
+                "alternatives": [
+                    {
+                        "confidence": "0.9956",
+                        "content": "it's"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "181.815",
+                "end_time": "182.255",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "fine"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "182.255",
+                "end_time": "182.365",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "to"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "182.365",
+                "end_time": "182.775",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "enjoy"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "182.775",
+                "end_time": "182.855",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "a"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "182.855",
+                "end_time": "183.145",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "slice"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "183.145",
+                "end_time": "183.235",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "of"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "183.235",
+                "end_time": "183.595",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "cake"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "183.595",
+                "end_time": "183.805",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "now"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "183.805",
+                "end_time": "183.925",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "183.925",
+                "end_time": "184.365",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "then"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "184.375",
+                "end_time": "184.625",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "and"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "184.625",
+                "end_time": "185.625",
+                "alternatives": [
+                    {
+                        "confidence": "0.9916",
+                        "content": "definitely"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "185.675",
+                "end_time": "186.435",
+                "alternatives": [
+                    {
+                        "confidence": "0.7468",
+                        "content": "skip"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "186.435",
+                "end_time": "186.545",
+                "alternatives": [
+                    {
+                        "confidence": "0.9981",
+                        "content": "the"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "186.545",
+                "end_time": "187.235",
+                "alternatives": [
+                    {
+                        "confidence": "0.9015",
+                        "content": "cleanses"
+                    }
+                ],
+                "type": "pronunciation"
+            }
+        ]
+    }
+]
