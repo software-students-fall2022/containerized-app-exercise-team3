@@ -77,7 +77,6 @@ def job(job_id):
     Route for the job page
     """
     job = db.jobs.find_one({'_id': ObjectId(job_id)})
-    print(job)
     if job["status"] == "COMPLETED":
         total_time = 0
         total_confidence = 0
@@ -90,8 +89,12 @@ def job(job_id):
                 total_time += time_added
                 total_confidence += confidence_added
                 count += 1
-        avg_confidence = str(round((total_confidence/count)*100, 2)) + "%"
-        avg_time = str(round(total_time/count, 3)) + "s"
+        if count != 0:
+            avg_confidence = str(round((total_confidence/count)*100, 2)) + "%"
+            avg_time = str(round(total_time/count, 3)) + "s"
+        else:
+            avg_confidence = "INVALID"
+            avg_time = "INVALID"
     else:
         avg_confidence = "INVALID"
         avg_time = "INVALID"
