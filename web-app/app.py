@@ -51,16 +51,19 @@ def home():
     else:
         success_rate = 0
     str_success_rate = "Success rate: " + str(success_rate) + "%\n"
-    success_doc = db.jobs.find({"status": "COMPLETED"})
-    total_completion = datetime.timedelta()
-    total_wait = datetime.timedelta()
-    for each in success_doc:
-        completion = each["completion_time"] - each["start_time"]
-        wait = each["start_time"] - each["creation_time"]
-        total_completion += completion
-        total_wait += wait
-    avg_completion = "Average completion time of jobs: " + str((total_completion / num_succeed).total_seconds()) + "s"
-    avg_wait = "Average wait time of jobs: " + str((total_wait / num_succeed).total_seconds()) + "s"
+    avg_completion = "Average completion time of jobs: INVALID"
+    avg_wait = "Average wait time of jobs: INVALID"
+    if num_succeed != 0:
+        success_doc = db.jobs.find({"status": "COMPLETED"})
+        total_completion = datetime.timedelta()
+        total_wait = datetime.timedelta()
+        for each in success_doc:
+            completion = each["completion_time"] - each["start_time"]
+            wait = each["start_time"] - each["creation_time"]
+            total_completion += completion
+            total_wait += wait
+        avg_completion = "Average completion time of jobs: " + str((total_completion / num_succeed).total_seconds()) + "s"
+        avg_wait = "Average wait time of jobs: " + str((total_wait / num_succeed).total_seconds()) + "s"
     return render_template('index.html', jobs=jobs, submitted=str_submitted,
                            num_succeed=str_succeed, failed=str_failed, processing=str_processing,
                            success_rate=str_success_rate, avg_completion=avg_completion, avg_wait=avg_wait)
