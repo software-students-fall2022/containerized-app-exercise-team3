@@ -2,6 +2,12 @@
 
 **Code related to the machine learning client goes in this folder.**
 
+# For Mac OS and Linux User only, before install all dependencies
+## Install dependency for PyAudio (Mac OS)
+    brew install portaudio
+## Install dependency for PyAudio (Linux)
+    sudo apt-get install portaudio19-dev libasound-dev python3-pyaudio
+
 # To Run Unit Test
 ## Install all dependencies into the virtual environment
     pip3 install -r requirements.txt
