@@ -67,7 +67,7 @@ def record(name="untitled", duration=None):
         timeout = duration * 1000
 
     # start recording
-    print("* Recording. Press [Ctrl + C] or [Cmd + .] to stop recording. Max Length: %dseconds.\n" %
+    print("* Recording. Press [Ctrl + C] to stop recording. Max Length: %dseconds.\n" %
           (int(timeout) / 1000))
     frames = []
     start_time = int(time()*1000)
