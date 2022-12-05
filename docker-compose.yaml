@@ -1,17 +1,15 @@
 services:
-  mongodb:
-    image: mongo:5.0
-    ports: 
-      - "127.0.0.1:27017:27017"
-      
-  web:
+  webapp:
     build: ./web-app
     ports:
-      - "3000:5000"
+      - "5001:5000"
+    links:
+      - my_mongodb
     depends_on:
-      - mongodb
-    environment:
-      MONGO_URL: mongodb://mongodb:27017
+      - my_mongodb
 
-  
-
+  my_mongodb:
+    image: mongo:latest
+    hostname: my_mongodb
+    ports: 
+      - "37017:27017"

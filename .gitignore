@@ -1,3 +1,6 @@
+# container volumn
+.data/
+
 # PyCharm code junk
 .idea/
 
