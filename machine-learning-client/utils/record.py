@@ -32,9 +32,9 @@ def record(name="untitled", duration=None):
         raise OverflowError("File name should be shorter than 255 characters.")
 
     # duration
-    if(duration is not None and duration <= 0):
+    if (duration is not None and duration <= 0):
         raise ValueError("Duration should be integer larger than zero.")
-    elif(duration is not None and duration > 60):
+    elif (duration is not None and duration > 60):
         raise NotImplementedError(
             "Duration larger than 60 seconds is not supported.")
 
@@ -92,8 +92,7 @@ def record(name="untitled", duration=None):
     p.terminate()
 
     # write
-    file_path = os.path.join(
-        os.path.abspath(__file__), os.pardir, os.pardir, subdir_recording, wave_output_filename)
+    file_path = os.path.join(os.getcwd(), subdir_recording, wave_output_filename)
     wf = wave.open(file_path, 'wb')
     wf.setnchannels(channels)
     wf.setsampwidth(p.get_sample_size(format))
