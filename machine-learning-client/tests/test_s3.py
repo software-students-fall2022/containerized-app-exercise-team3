@@ -1,4 +1,5 @@
 import pytest
+import os
 from utils import aws_s3
 import boto3
 
@@ -34,9 +35,10 @@ class Tests:
         """
         Test the upload_file function from the aws_s3 module
         """
-        expected = "s3://software-eng-project-4/video_sample.mp4"
-        actual = aws_s3.upload_file('video_sample.mp4', 'software-eng-project-4')
-        assert actual == expected, "Expected s3://software-eng-project-4/video_sample.mp4 to be equal to s3://software-eng-project-4/video_sample.mp4!"
+        expected = "s3://software-eng-project-4/sample_audio.mp3"
+        file_path = os.path.join(os.path.abspath(__file__), os.pardir, os.pardir, "recordings", "sample_audio.mp3")
+        actual = aws_s3.upload_file(file_path, 'software-eng-project-4')
+        assert actual == expected, f"Expected {actual} to be equal to s3://software-eng-project-4/sample_audio.mp3!"
 
     def test_wrong_file(self, example_fixture):
         """
@@ -54,10 +56,11 @@ class Tests:
         """
         s3 = boto3.resource('s3')
         bucket = s3.Bucket('software-eng-project-4')
-        key = 'video_sample.mp4'
-        actual = aws_s3.upload_file(key, 'software-eng-project-4')
-        objs = list(bucket.objects.filter(Prefix=key))
-        if any([w.key == key for w in objs]):
+        file_path = os.path.join(os.path.abspath(__file__), os.pardir, os.pardir, "recordings", "sample_audio.mp3")
+        file_name = os.path.basename(file_path)
+        actual = aws_s3.upload_file(file_path, 'software-eng-project-4')
+        objs = list(bucket.objects.filter(Prefix=file_name))
+        if any([w.key == file_name for w in objs]):
             assert True, "File exist in Bucket!"
         else:
             assert False, "File does not exist in Bucket!"
