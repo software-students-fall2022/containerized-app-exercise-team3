@@ -39,7 +39,7 @@ def record(name="untitled", duration=None):
             "Duration larger than 60 seconds is not supported.")
 
     # Name of sub-directory where WAVE files are placed
-    subdir_recording = 'recording'
+    subdir_recording = 'recordings'
 
     # Variables for Pyaudio
     chunk = 1024
@@ -93,7 +93,7 @@ def record(name="untitled", duration=None):
 
     # write
     file_path = os.path.join(
-        os.getcwd(), subdir_recording, wave_output_filename)
+        os.path.abspath(__file__), os.pardir, os.pardir, subdir_recording, wave_output_filename)
     wf = wave.open(file_path, 'wb')
     wf.setnchannels(channels)
     wf.setsampwidth(p.get_sample_size(format))
