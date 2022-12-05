@@ -26,8 +26,9 @@ except Exception as e:
     print('Database connection error:', e)  # debug
 
 
-def start_transcription_job(s3_file_url: str, language_code: str = "en-US"):
-    job_name = str(uuid.uuid4())
+def start_transcription_job(s3_file_url: str, language_code: str = "en-US", job_name:str = None):
+    if not job_name:
+        job_name = str(uuid.uuid4())
 
     response = client.start_transcription_job(
         TranscriptionJobName=job_name,

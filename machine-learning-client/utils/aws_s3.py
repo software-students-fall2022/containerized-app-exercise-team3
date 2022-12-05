@@ -25,7 +25,7 @@ def upload_file(file_name, bucket, object_name=None):
     try:
         response = s3_client.upload_file(file_name, bucket, object_name,
             ExtraArgs={})
-        return "s3://{}/{}".format(bucket, file_name)
+        return "s3://{}/{}".format(bucket, os.path.basename(file_name))
     except ClientError as e:
         logging.error(e)
         return False
